@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class=" position-fixed bg-black ">
+    <div class="first position-fixed justify-content-end flex-column text-center  bg-white ">
+        <div class="image">
+            <img class="w-75 mx-auto mt-4" src="logo.png" alt="">
+        </div>
+        <div class="icon">
+            <i id="slideNav" class="fa line fa-align-justify"></i>
+            <i id="staticNav" class="fa d-none line fa-align-justify fa-times"></i>
+        </div>
+        <div class="social">
+            <i class="fas fa-globe"></i>
+            <i class="fas fa-share-alt"></i>
+        </div>
+    </div>
+    <div class="slider w-25 position-fixed   flex-column ">
+        <ul>
+            <li  class="my-4"><a class="text-white " id="navSearch" href="#">Search</a></li>
+            <li  class="my-4"><a class="text-white " id="navCategories" href="#">Categories</a></li>
+            <li  class="my-4"><a class="text-white " id="navArea" href="#">Area</a></li>
+            <li  class="my-4"><a class="text-white " id="navIngredients" href="#">Ingredients</a></li>
+            <li  class="my-4"><a class="text-white " id="navContact" href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="icon ms-3 position-absolute  ">
+            <i class="fab mx-2 fa-facebook-f"></i>
+            <i class="fab  mx-2 fa-twitter"></i>
+            <i class="fas  mx-2 fa-globe"></i>
+            <p class="lead mt-3"> Copyright Â© 2019 All Rights Reserved.</p>
+            
+        </div>
+        
+    </div>
+   
+</nav>
+    <section id="Home" class="Home m-auto mt-4 p-5     ">
+        <div class="container homeOne ">
+            <div id="rowData" class="row ">
+             
+              
+               
+            </div>
+        </div>
+
+<div class="Instructions">
+    <div id="Instructions" class="container  d-none">
+       
+    </div>
+</div>
+
+
+
+
+    </section>
+    <section id="Search" class="Search d-none  ">
+        <div class="container">
+            <div class="row  ">
+                <div class="col-md-6 mt-4 ">
+                    <input class="form-control w-100 text-center  " type="text"  id="search" placeholder="search By Name...">
+                </div>
+                <div class="col-md-6 mt-4 ">
+                    <input class="form-control w-100 text-center" type="text" maxlength="1"  id="letter" placeholder="search By First Letter...">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="addSearch" class="row addSearch mt-5 pt-3">
+               
+            </div>
+        </div>
+       
+
+    </section>
+    <div class="container">
+        <div id="SearchChang" class="row  d-none  offset-1 ">
+        </div>
+    </div>
+        <section id="Categories" class="Categories d-none mt-  ">
+            <div class="container">
+                <div id="catgshow" class="row  addSearch  ">
+</div>
+
+        </section >
+        <div class="container">
+            <div id="CategorieschChang" class="row  d-none  offset-1 ">
+            </div>
+        </div>
+        <div class="container">
+            <div id="CategorieschChangOne" class="row  d-none  offset-1 ">
+            </div>
+        </div>
+
+        <section id="Ingredients" class="d-none  pt-5 mt-5">
+    <div class="container">
+        <div id="IngredientsDisplay" class="row Ingredients offset-1 ">
+        </div>
+    </div>
+    <div class="container">
+        <div id="IngredChang" class="row Ingredients d-none offset-1 ">
+        
+        </div>
+    </div>
+    <div class="container">
+        <div id="IngredChangOne" class="row  d-none offset-1 ">
+        </div>
+    </div>
+   
+
+        </section>
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

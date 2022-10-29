@@ -1,0 +1,107 @@
+*{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #000000f2;
+    overflow: scroll;
+}
+nav{
+    width: 250px;
+    height: 100%;
+    z-index: 9999999999999999;
+    left: -250px;
+}
+nav .slider{
+top: 0;
+z-index: 9999999;
+
+}
+
+nav .slider ul li a{
+    font-size: 15px;
+}
+nav .slider .icon{
+    cursor: pointer;
+    bottom: -350px;
+    width: 50%;    
+}
+ nav .first {
+   top: 0;
+   width: 60px;
+   height: 100%;
+   left: 0px;
+   z-index: 9999;
+background-color: #f8f6f6;
+}
+nav .icon{
+    bottom: 70px;
+}
+nav .icon p{
+    color: #999;
+}
+nav .first .icon .line  {
+        position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            cursor: pointer;
+}
+nav .first .social  {
+        position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 11;
+            cursor: pointer;
+}
+.Search{
+    width: 70%;
+    margin: auto;
+}
+.Search .form-control{
+    background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .7);
+        border-radius: 0;
+        color: #fff;
+        font-weight: 800;
+    }
+
+.Home{
+    width: 80%;
+    
+}
+.Home img{
+cursor: pointer;    
+}
+ .item{
+     position: relative;
+        overflow: hidden;
+        cursor: pointer;
+}
+ .text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transition:all 0.7s ease-in-out ;
+    background-color: rgba(255, 255, 255, .7);
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+ .item:hover .text {
+top: 0;
+}
+.youtube{
+    background-color: #F70000;
+}
